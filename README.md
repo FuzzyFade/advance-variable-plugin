@@ -1,6 +1,6 @@
 English | [简体中文](./README_zh-CN.md)
 
-## Define Runtime Variable Plugin
+## Advance Define Plugin
 
 > A Plugin that injects code after loader (required webpack5)
 
@@ -8,13 +8,13 @@ English | [简体中文](./README_zh-CN.md)
 
 webpack.config.js
 ```js
-import DefineVariablePlugin from 'define-runtime-variable-plugin'
+import AdvanceDefinedPlugin from '@icecee/advance-define-plugin'
 
 module.exports = {
   ...
   plugins: [
     ...
-    new DefineVariablePlugin({
+    new AdvanceDefinedPlugin({
       getCode: () => `const time = ${new Date()}`
     }),
   ]
@@ -35,7 +35,7 @@ const App = () => {
 
 [DefinePlugin](https://www.webpackjs.com/plugins/define-plugin/) can't get the code after the loader and inject it into the loader product.
 
-**Define Runtime Variable Plugin** can inject the data of some products processed and calculated in the loader stage into the build code after the loader, so that the data can be obtained (or function call) when the code runs.
+**AdvanceDefinedPlugin** can inject the data of some products processed and calculated in the loader stage into the build code after the loader, so that the data can be obtained (or function call) when the code runs.
 
 ### Options
 

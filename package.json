@@ -1,6 +1,7 @@
 {
-  "name": "define-runtime-variable-plugin",
+  "name": "@icecee/advance-define-plugin",
   "version": "1.0.0",
+  "private": false,
   "main": "dist/index.js",
   "typing": "dist/types/index.d.ts",
   "license": "MIT",

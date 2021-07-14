@@ -1,6 +1,6 @@
 [English](./README.md) | 简体中文
 
-## Define Runtime Variable Plugin
+## Advance Define Plugin
 
 > 在 loader 之后注入代码的插件（仅支持 webpack5）
 
@@ -8,13 +8,13 @@
 
 webpack 配置文件  (eg: webpack.config.js)
 ```js
-import DefineVariablePlugin from 'define-runtime-variable-plugin'
+import AdvanceDefinedPlugin from '@icecee/advance-define-plugin'
 
 module.exports = {
   ...
   plugins: [
     ...
-    new DefineVariablePlugin({
+    new AdvanceDefinedPlugin({
       getCode: () => `const time = ${new Date()}`
     }),
   ]
