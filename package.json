@@ -1,0 +1,32 @@
+{
+  "name": "define-runtime-variable-plugin",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "typing": "dist/types/index.d.ts",
+  "license": "MIT",
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "webpack",
+    "plugin",
+    "define",
+    "variable"
+  ],
+  "scripts": {
+    "release": "release-it",
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "@types/webpack-sources": "^2.1.1",
+    "release-it": "^14.10.0",
+    "typescript": "^4.3.5",
+    "webpack": "^5.44.0",
+    "webpack-sources": "^2.3.0"
+  },
+  "peerDependencies": {
+    "webpack": "^5.20.0"
+  },
+  "homepage": "https://github.com/FuzzyFade/define-runtime-variable-plugin",
+  "repository": "https://github.com/FuzzyFade/define-runtime-variable-plugin.git"
+}
