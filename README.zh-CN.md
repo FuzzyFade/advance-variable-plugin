@@ -8,7 +8,7 @@
 
 webpack 配置文件  (eg: webpack.config.js)
 ```js
-import AdvanceDefinedPlugin from '@icecee/advance-define-plugin'
+import AdvanceDefinedPlugin from 'advance-define-plugin'
 
 module.exports = {
   ...

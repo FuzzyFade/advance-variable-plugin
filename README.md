@@ -8,7 +8,7 @@ English | [简体中文](./README_zh-CN.md)
 
 webpack.config.js
 ```js
-import AdvanceDefinedPlugin from '@icecee/advance-define-plugin'
+import AdvanceDefinedPlugin from 'advance-define-plugin'
 
 module.exports = {
   ...

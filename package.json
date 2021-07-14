@@ -1,6 +1,7 @@
 {
-  "name": "@icecee/advance-define-plugin",
+  "name": "advance-define-plugin",
   "version": "1.0.0",
+  "author": "icecee",
   "private": false,
   "main": "dist/index.js",
   "typing": "dist/types/index.d.ts",
